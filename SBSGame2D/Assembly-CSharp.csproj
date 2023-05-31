@@ -58,9 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Parallax.cs" />
     <Compile Include="Assets\Script\Platform.cs" />
-    <Compile Include="Assets\Script\PlatformManager.cs" />
+    <Compile Include="Assets\Script\Manager\PlatformManager.cs" />
+    <Compile Include="Assets\Script\Item\Gem.cs" />
+    <Compile Include="Assets\Script\Manager\GameManager.cs" />
+    <Compile Include="Assets\Script\Item\Cherry.cs" />
     <Compile Include="Assets\Script\Player.cs" />
-    <Compile Include="Assets\Script\SoundManager.cs" />
+    <Compile Include="Assets\Script\Manager\InterfaceManager.cs" />
+    <Compile Include="Assets\Script\Manager\SoundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
