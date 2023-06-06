@@ -22,13 +22,15 @@ public class PlatformManager : MonoBehaviour
     {
         while (true)
         {
-            GameObject go = Instantiate(platform);
-            go.transform.position = new Vector2(-2.5f, -0.65f);
 
-            GameObject go2 = Instantiate(platform);
-            go2.transform.position = new Vector2(0.3f, -0.65f);
 
-            yield return new WaitForSeconds(2.3f);
+                GameObject go = Instantiate(platform);
+                go.transform.position = new Vector2(-2.5f, -0.65f);
+
+                GameObject go2 = Instantiate(platform);
+                go2.transform.position = new Vector2(0.3f, -0.65f);
+
+                yield return new WaitForSeconds(2.3f);
         }
     }
 

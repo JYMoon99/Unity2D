@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Parallax.cs" />
     <Compile Include="Assets\Script\Platform.cs" />
+    <Compile Include="Assets\Script\Item\DeathZone.cs" />
     <Compile Include="Assets\Script\Manager\PlatformManager.cs" />
     <Compile Include="Assets\Script\Item\Gem.cs" />
     <Compile Include="Assets\Script\Manager\GameManager.cs" />

@@ -13,8 +13,7 @@ public class Cherry : MonoBehaviour, IItem
 
         gameObject.SetActive(false);
 
-}
-
+    }
 
     
 }

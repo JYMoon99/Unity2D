@@ -30,6 +30,8 @@ public class Player : MonoBehaviour
             animator.Play("Jump");
             SoundManager.instance.Sound(SoundManager.SOUND_TYPE.JUMP);
         }
+
+
     }
 
     private void FixedUpdate()
@@ -56,11 +58,12 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         IItem item = collision.GetComponent<IItem>();
-
+  
         if(item != null) 
         {
             item.Use();
         }
+
     }
 
 }

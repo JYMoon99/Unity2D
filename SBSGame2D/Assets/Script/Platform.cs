@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Platform : MonoBehaviour
 {
-    private float speed = 2.5f;
+    private float speed = 2.8f;
     [SerializeField] GameObject[] cherry;
 
 
@@ -29,8 +30,6 @@ public class Platform : MonoBehaviour
 
         transform.Translate(new Vector2(-speed, 0) * Time.deltaTime);
 
-
-           
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

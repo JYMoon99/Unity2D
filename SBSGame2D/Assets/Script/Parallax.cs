@@ -12,9 +12,10 @@ public class Parallax : MonoBehaviour
 
     private void Update()
     {
-        rect = rawImage.uvRect;
-        rect.x += Time.deltaTime * speed;
-        
-        rawImage.uvRect = rect;
+
+            rect = rawImage.uvRect;
+            rect.x += Time.deltaTime * speed;
+
+            rawImage.uvRect = rect;
     }
 }

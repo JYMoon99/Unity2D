@@ -20,7 +20,7 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance; // 전역으로 해야하기 때문에 static을 함
 
     private void Awake()
-    {
+    {   // 싱글톤
         if(instance == null) 
         {
             instance = this;
