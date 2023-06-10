@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         { 
             score = value;
 
-            bestScoreText.text = "BestScore : " + bestScore;
+            
             currentScoreText.text = "Score : " + score;
 
         }
@@ -37,6 +37,18 @@ public class GameManager : MonoBehaviour
         
 
         Load();
+
+        Time.timeScale = 0f;
+
+        bestScoreText.text = "BestScore : " + bestScore;
+    }
+
+    public void Ready()
+    {
+        var player = GameObject.Find("Player").GetComponent<Animator>();
+        player.GetComponent<Animator>().updateMode = AnimatorUpdateMode.UnscaledTime;
+
+        Time.timeScale = 1.0f;
     }
     public void Save()
     {

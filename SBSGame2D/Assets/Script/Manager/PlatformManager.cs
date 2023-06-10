@@ -30,7 +30,7 @@ public class PlatformManager : MonoBehaviour
                 GameObject go2 = Instantiate(platform);
                 go2.transform.position = new Vector2(0.3f, -0.65f);
 
-                yield return new WaitForSeconds(2.3f);
+                yield return new WaitForSeconds(2.2f);
         }
     }
 

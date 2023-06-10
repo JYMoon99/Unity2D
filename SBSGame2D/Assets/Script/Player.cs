@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        
     }
 
 

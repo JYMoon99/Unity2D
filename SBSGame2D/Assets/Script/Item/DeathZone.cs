@@ -21,7 +21,7 @@ public class DeathZone : MonoBehaviour, IItem
     {
         while (true)
         {
-            player.gameObject.transform.position -= new Vector3(0, 0.001f, 0) * Time.unscaledTime; // unscaledTime : 
+            player.gameObject.transform.position -= new Vector3(0, 0.008f, 0); // unscaledTime : 
             yield return null;
         }
     }

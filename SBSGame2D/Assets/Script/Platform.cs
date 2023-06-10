@@ -5,7 +5,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class Platform : MonoBehaviour
 {
-    private float speed = 2.8f;
+    private float speed = 2.4f;
     [SerializeField] GameObject[] cherry;
 
 

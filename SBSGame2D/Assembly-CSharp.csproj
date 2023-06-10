@@ -56,11 +56,13 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\EventManager.cs" />
     <Compile Include="Assets\Script\Parallax.cs" />
     <Compile Include="Assets\Script\Platform.cs" />
     <Compile Include="Assets\Script\Item\DeathZone.cs" />
     <Compile Include="Assets\Script\Manager\PlatformManager.cs" />
     <Compile Include="Assets\Script\Item\Gem.cs" />
+    <Compile Include="Assets\Script\Manager\SceneMove.cs" />
     <Compile Include="Assets\Script\Manager\GameManager.cs" />
     <Compile Include="Assets\Script\Item\Cherry.cs" />
     <Compile Include="Assets\Script\Player.cs" />
